@@ -1,0 +1,22 @@
+---
+title: Activities near Old Pines Hotel
+menu: activities
+description: Old Pines is nestled in the heart of the Scottish Highlands close to Ben Nevis, Loch Ness, and Fort William.
+hero: scotland-04
+heroAlt: Things to do in Scotland near Old Pines Hotel and Restaurant
+priority: 0.8
+---
+
+A selection of Scottish activities and unmissable Highland areas to be experienced within one hour's drive of Old Pines:
+
+* [Loch Ness](http://www.lochness.com/) and the [Loch Ness Monster Experiences](https://www.visitinvernesslochness.com/explore-the-scottish-highlands/loch-ness-myths-and-legends/)
+* [Ben Nevis mountain](http://ben-nevis.com/)
+* [Aonach Mor / the Nevis Range](https://www.nevisrange.co.uk/)
+* [Caledonian Canal](https://www.scottishcanals.co.uk/canals/caledonian-canal/)
+* [Great Glen Way](https://www.highland.gov.uk/greatglenway/)
+* [Mallaig](https://www.undiscoveredscotland.co.uk/mallaig/mallaig/index.html)
+* [Arisaig](https://www.undiscoveredscotland.co.uk/arisaig/arisaig/index.html)
+* [Road to the Isles](https://www.road-to-the-isles.org.uk/)
+* numerous [Scotch Whisky distilleries](https://www.bennevisdistillery.com/).
+
+We have our very own walk across the road from the hotel. The [Highbridge Circular walk](https://www.wildlochaber.com/spean-bridge/walking/high-bridge-and-commando-memorial) takes in the old Highbridge ruins, the site of Jacobite rebellion, the remains of the abandoned Gairlochy to Fort Augustus railway, the Commando Memorial, and the dramatic Spean Gorge. An hour and a half of easy, mostly-flat walking is the perfect way to rejuvenate the body, relax the mind, and work up an appetite for [dinner](--ROOT--restaurant/).

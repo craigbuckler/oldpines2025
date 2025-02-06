@@ -1,0 +1,12 @@
+version: '3'
+services:
+
+  php83:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: php83
+    volumes:
+      - ./build:/var/www/html
+    ports:
+      - "3000:80"

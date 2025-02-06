@@ -1,0 +1,32 @@
+{
+  "name": "oldpines",
+  "version": "1.0.0",
+  "description": "Old Pines Hotel & Restaurant website",
+  "keywords": [
+    "website",
+    "hotel",
+    "restaurant"
+  ],
+  "homepage": "https://github.com/craigbuckler/oldpines2025",
+  "bugs": {
+    "url": "https://github.com/craigbuckler/oldpines2025/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigbuckler/oldpines2025.git"
+  },
+  "license": "MIT",
+  "author": "Craig Buckler",
+  "type": "module",
+  "main": "publican.config.js",
+  "scripts": {
+    "build": "node --no-warnings --env-file=.env.dev --env-file=.env.prod ./publican.config.js",
+    "docker:up": "docker compose up -d",
+    "docker:dn": "docker compose down",
+    "start": "node --no-warnings --env-file=.env.dev ./publican.config.js"
+  },
+  "dependencies": {
+    "esbuild": "^0.24.2",
+    "publican": "^0.5.0"
+  }
+}

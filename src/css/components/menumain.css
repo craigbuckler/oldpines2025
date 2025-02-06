@@ -1,0 +1,148 @@
+/* main menu */
+.menumain-open, .book .menumain-open {
+  display: none;
+}
+
+.menumain-open, #menumain {
+
+  button {
+    background-color: inherit;
+    border: 0 none;
+  }
+
+  strong {
+    display: none;
+  }
+
+}
+
+#menumain {
+
+  position: fixed;
+  inline-size: fit-content;
+  max-inline-size: none;
+  block-size: 100vb;
+  max-block-size: none;
+  inset: 0;
+  inset-inline-start: auto;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+  text-transform: uppercase;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: none;
+  color: var(--color-white);
+  background-color: var(--color-gdark);
+  transform: translateX(0);
+  transition-property: block transform;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+	transition-behavior: allow-discrete;
+
+  &[open] {
+
+    @starting-style {
+      display: block;
+      transform: translateX(100%);
+    }
+
+  }
+
+  &:not([open]) {
+    display: none;
+    transform: translateX(100%);
+  }
+
+  nav {
+    inline-size: 100%;
+    min-block-size: 100%;
+    padding-block-end: 2em;
+  }
+
+  button, a:link, a:visited {
+    color: var(--color-white);
+  }
+
+  strong, button:hover, button:focus, a:hover, a:active, a:focus {
+    color: var(--color-glite);
+  }
+
+  button {
+    margin-inline: auto 1em;
+  }
+
+  button svg {
+    inline-size: 3em;
+    block-size: 3em;
+    padding: 0.5em;
+  }
+
+  ul {
+    display: block;
+    padding-inline-start: 1.5em;
+
+    a, strong {
+      display: block;
+      padding-block: 0.2em;
+      padding-inline-end: 5em;
+    }
+  }
+
+}
+
+dialog::backdrop {
+  background-color: var(--color-shadow);
+  backdrop-filter: blur(3px);
+}
+
+.contact .menumain-open {
+
+  button {
+    color: var(--color-gdark);
+  }
+
+  button:hover, button:focus {
+    color: var(--color-gmain);
+  }
+
+}
+
+.book .menumain-open {
+
+  button {
+    padding-inline-start: 0.5em;
+    color: var(--color-white);
+  }
+
+  button:hover, button:focus {
+    color: var(--color-glite);
+  }
+
+}
+
+/* JS enabled */
+@media (scripting: enabled) {
+
+  .menumain-open {
+    display: block;
+  }
+
+}
+
+/* desktop media queries */
+@media (width >= 750px) {
+
+  .book .menumain-open {
+    display: block;
+  }
+
+  .menumain-open strong {
+    display: inline-block;
+  }
+
+  .contact .menumain-open button {
+    display: none;
+  }
+
+}
