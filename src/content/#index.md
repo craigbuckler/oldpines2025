@@ -11,6 +11,47 @@ Welcome to Old Pines. We are a small [hotel](--ROOT--rooms/) and [restaurant](--
 
 Indulge in freshly-prepared, locally-sourced food, a restful atmosphere in rejuvenating Scottish Highland air.
 
+<nav class="full imagegrid">
+  <ul>
+    <li>
+      <a href="${ tacs.root }rooms/">
+        <img src="${ tacs.root }images/room-01.avif" width="1600" height="900" alt="superior Old Pines bedroom" loading="lazy" />
+        <p>sleep</p>
+      </a>
+    </li>
+    <li>
+      <a href="${ tacs.root }restaurant/">
+        <img src="${ tacs.root }images/food-02.avif" width="1600" height="900" alt="delicious Old Pines food" loading="lazy" />
+        <p>eat</p>
+      </a>
+    </li>
+    <li>
+      <a href="${ tacs.root }location/activities/">
+        <img src="${ tacs.root }images/scotland-04.avif" width="1600" height="900" alt="explore Scotland" loading="lazy" />
+        <p>relax</p>
+      </a>
+    </li>
+    <li>
+      <a href="${ tacs.root }gallery/">
+        <img src="${ tacs.root }images/scotland-03.avif" width="1600" height="900" alt="stunning scenery" loading="lazy" />
+        <p>gallery</p>
+      </a>
+    </li>
+    <li>
+      <a href="${ tacs.root }offers/">
+        <img src="${ tacs.root }images/hotel-03.avif" width="1600" height="900" alt="special room and dining offers" loading="lazy" />
+        <p>offers</p>
+      </a>
+    </li>
+    <li>
+      <a href="${ tacs.root }contact/">
+        <img src="${ tacs.root }images/hotel-05.avif" width="1600" height="900" alt="contact ${ tacs.config.title }" loading="lazy" />
+        <p>contact</p>
+      </a>
+    </li>
+  </ul>
+</nav>
+
 
 ## 5-star Customer Reviews
 
@@ -26,6 +67,6 @@ Thank you to all our customers for their complimentary reviews of Old Pines Hote
 
 <ul class="flexcenter">
   <li><a href="--ROOT--rooms/booking/" class="button">book room</a></li>
-  <li><a href="--ROOT--docs/restaurant/reserve-table/" class="button">reserve table</a></li>
+  <li><a href="--ROOT--restaurant/reserve-table/" class="button">reserve table</a></li>
   <li><a href="--ROOT--offers/" class="button">offers</a></li>
 </ul>

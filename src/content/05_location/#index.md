@@ -50,3 +50,9 @@ ${ tacs.config.title } is [136 miles or two and three-quarter hours from Edinbur
 1. After 28 miles, turn right onto the A82.
 1. Turn left on to the B8004 at the Commando Memorial.
 1. ${ tacs.config.title } is 300 metres on the right.
+
+
+<ul class="flexcenter">
+  <li><a href="--ROOT--rooms/booking/" class="button">book room</a></li>
+  <li><a href="--ROOT--restaurant/reserve-table/" class="button">reserve table</a></li>
+</ul>

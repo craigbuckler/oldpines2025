@@ -20,3 +20,9 @@ A selection of Scottish activities and unmissable Highland areas to be experienc
 * numerous [Scotch Whisky distilleries](https://www.bennevisdistillery.com/).
 
 We have our very own walk across the road from the hotel. The [Highbridge Circular walk](https://www.wildlochaber.com/spean-bridge/walking/high-bridge-and-commando-memorial) takes in the old Highbridge ruins, the site of Jacobite rebellion, the remains of the abandoned Gairlochy to Fort Augustus railway, the Commando Memorial, and the dramatic Spean Gorge. An hour and a half of easy, mostly-flat walking is the perfect way to rejuvenate the body, relax the mind, and work up an appetite for [dinner](--ROOT--restaurant/).
+
+
+<ul class="flexcenter">
+  <li><a href="--ROOT--rooms/booking/" class="button">book room</a></li>
+  <li><a href="--ROOT--restaurant/reserve-table/" class="button">reserve table</a></li>
+</ul>

@@ -13,13 +13,30 @@ Your menu can be prepared fully gluten free or dairy free on request and we are 
 
 We will always have a fully vegan extended menu option available on request, again changing regularly. A small children's menu is also available.
 
-View sample:
+*Please view our sample menus...*
 
-* <a href="${ tacs.root }restaurant/breakfast/">breakfast menu</a>
-
-* <a href="${ tacs.root }restaurant/dinner/">dinner menu</a>
-
-* <a href="${ tacs.root }restaurant/vegan/">vegan dinner menu</a>
+<nav class="imagegrid full">
+  <ul>
+    <li>
+      <a href="${ tacs.root }restaurant/breakfast/">
+        <img src="${ tacs.root }images/restaurant-01.avif" width="1600" height="900" alt="sample breakfast menu" loading="lazy" />
+        <p>breakfast</p>
+      </a>
+    </li>
+    <li>
+      <a href="${ tacs.root }restaurant/dinner/">
+        <img src="${ tacs.root }images/food-01.avif" width="1600" height="900" alt="sample dinner menu" loading="lazy" />
+        <p>dinner</p>
+      </a>
+    </li>
+    <li>
+      <a href="${ tacs.root }restaurant/vegan/">
+        <img src="${ tacs.root }images/food-02.avif" width="1600" height="900" alt="sample vegan menu" loading="lazy" />
+        <p>vegan</p>
+      </a>
+    </li>
+  </ul>
+</nav>
 
 
 ## The Best in Scottish Dining

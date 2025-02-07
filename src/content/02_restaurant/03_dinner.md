@@ -64,3 +64,27 @@ Selection of British cheese, port jelly, oatcakes £8 per person
 *Many dishes can be adapted to suit your dietary requirements.*
 
 {/article}
+
+
+<nav class="imagegrid full">
+  <ul>
+    <li>
+      <a href="${ tacs.root }restaurant/reserve-table/">
+        <img src="${ tacs.root }images/hotel-01.avif" width="1600" height="900" alt="reserve a table at Old Pines Restaurant" loading="lazy" />
+        <p>reserve table</p>
+      </a>
+    </li>
+    <li>
+      <a href="${ tacs.root }restaurant/breakfast/">
+        <img src="${ tacs.root }images/restaurant-01.avif" width="1600" height="900" alt="sample breakfast menu" loading="lazy" />
+        <p>breakfast</p>
+      </a>
+    </li>
+    <li>
+      <a href="${ tacs.root }restaurant/vegan/">
+        <img src="${ tacs.root }images/food-02.avif" width="1600" height="900" alt="sample vegan menu" loading="lazy" />
+        <p>vegan</p>
+      </a>
+    </li>
+  </ul>
+</nav>

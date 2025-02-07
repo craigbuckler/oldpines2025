@@ -61,3 +61,27 @@ Scrambled eggs served with organic smoked salmon or Great Glen smoked venison. A
 *Many dishes can be adapted to suit your dietary requirements.*
 
 {/article}
+
+
+<nav class="imagegrid full">
+  <ul>
+    <li>
+      <a href="${ tacs.root }restaurant/reserve-table/">
+        <img src="${ tacs.root }images/hotel-01.avif" width="1600" height="900" alt="reserve a table at Old Pines Restaurant" loading="lazy" />
+        <p>reserve table</p>
+      </a>
+    </li>
+    <li>
+      <a href="${ tacs.root }restaurant/dinner/">
+        <img src="${ tacs.root }images/food-01.avif" width="1600" height="900" alt="sample dinner menu" loading="lazy" />
+        <p>dinner</p>
+      </a>
+    </li>
+    <li>
+      <a href="${ tacs.root }restaurant/vegan/">
+        <img src="${ tacs.root }images/food-02.avif" width="1600" height="900" alt="sample vegan menu" loading="lazy" />
+        <p>vegan</p>
+      </a>
+    </li>
+  </ul>
+</nav>

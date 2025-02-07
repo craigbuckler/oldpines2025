@@ -41,7 +41,7 @@ a.logo {
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: flex-end;
-  padding-block: 0.3em;
+  padding-block: 0.6em;
   padding-inline-start: var(--layout-margin);
 
   img {
@@ -73,7 +73,7 @@ footer {
   margin-block-start: 5em;
 
   a.logo {
-    margin-block: 1em 2em;
+    margin-block: 1em;
   }
 
 }
@@ -152,7 +152,7 @@ footer .book {
 /* social */
 .social {
 
-  padding-block: 0.5em;
+  padding-block: 0.5em 4em;
 
   li {
     align-self: center;

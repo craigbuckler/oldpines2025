@@ -2,7 +2,7 @@
 
   font-size: var(--fsize-2);
   text-align: center;
-  margin-block: 3em;
+  margin-block: 2em;
 
   span {
     display: block;
@@ -12,7 +12,6 @@
     text-decoration: none;
   }
 
-  .phone { font-size: var(--fsize-5); }
-  .email { font-size: var(--fsize-3); }
+  .phone { font-size: var(--fsize-4); }
 
 }

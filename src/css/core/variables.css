@@ -17,9 +17,12 @@
   --header-height: 4rem;
   --layout-width: 55rem;
   --layout-margin: min(3vw, 3rem);
-  --layout-list: 3;
   --main-width: min(var(--layout-width), 100% - (2 * var(--layout-margin)));
-  --header-fix-height: calc(var(--header-height) + var(--layout-margin));
+
+  --layout-list: 3;
+  --layout-list-gap: 1em;
+  --layout-list-max: min(var(--layout-width) * 2, 100% - (2 * var(--layout-list-gap)));
+  --layout-list-item: max(16rem, 100% / (var(--layout-list) + 1 ));
 
   --color-white: #fff;
   --color-glite: #a6cc9f;

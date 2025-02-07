@@ -41,3 +41,9 @@ We may periodically contact you by email. Instructions are always provided shoul
 ## Links
 
 This site links to other websites. We are not responsible for the content, accuracy, or privacy practices of those sites.
+
+
+<ul class="flexcenter">
+  <li><a href="--ROOT--rooms/booking/" class="button">book room</a></li>
+  <li><a href="--ROOT--restaurant/reserve-table/" class="button">reserve table</a></li>
+</ul>

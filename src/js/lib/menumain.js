@@ -1,6 +1,6 @@
 // main menu dialog
 const
-  menuOpen = document.querySelectorAll('.menumain-open button'),
+  menuOpen = document.querySelectorAll('.menumain-open'),
   menuMain = document.querySelector('#menumain');
 
 if (menuOpen.length && menuMain) {

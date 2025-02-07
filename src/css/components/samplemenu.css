@@ -1,7 +1,8 @@
 /* sample menu */
 .samplemenu {
 
-  padding: calc(var(--layout-margin) * 1.5);
+  padding-block: 2em;
+  padding-inline: calc(var(--layout-margin) * 1.5);
   margin-block: 2em;
   background: 95% 1em / 30% no-repeat url(../images/old-pines.avif) var(--color-beige);
 
@@ -20,6 +21,7 @@
   }
 
   em {
+    display: block;
     padding-inline-start: 2em;
   }
 
