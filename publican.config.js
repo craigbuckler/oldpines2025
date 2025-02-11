@@ -41,6 +41,7 @@ publican.config.tagPages = null;
 // pass-through files
 publican.config.passThrough.add({ from: './src/media/favicons', to: './' });
 publican.config.passThrough.add({ from: './src/media/images', to: './images/' });
+publican.config.passThrough.add({ from: './src/media/videos', to: './videos/' });
 publican.config.passThrough.add({ from: './src/media/fonts', to: './fonts/' });
 
 // processContent hook: replace { aside|section|article } tags

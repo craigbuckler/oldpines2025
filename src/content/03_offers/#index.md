@@ -2,8 +2,7 @@
 title: Special Offers
 menu: offers
 description: The latest offers and promotions at Old Pines Hotel and Restaurant in the Scottish Highlands.
-hero: hotel-03
-heroAlt: Old Pines Hotel and Restaurant, Scotland
+slideshow: scotland01
 priority: 1.0
 ---
 

@@ -1,5 +1,5 @@
 /* main menu */
-.menumain-open, .book .menumain-open {
+.menumain-open {
   display: none;
 }
 
@@ -138,21 +138,22 @@ dialog::backdrop {
     display: block;
   }
 
+  .book .menumain-open {
+    display: none;
+  }
+
 }
 
+
 /* desktop media queries */
-@media (width >= 750px) {
+@media (scripting: enabled) and (width >= 750px) {
+
+  .contact .menumain-open {
+    display: none;
+  }
 
   .book .menumain-open {
     display: block;
-  }
-
-  .menumain-open strong {
-    display: inline-block;
-  }
-
-  .contact .menumain-open button {
-    display: none;
   }
 
 }

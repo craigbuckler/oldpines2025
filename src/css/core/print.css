@@ -17,13 +17,13 @@
     font-size: 10px !important;
   }
 
-  footer, iframe, video, #menumain, #hero, .menumain-open, .breadcrumb, .share, .book, .social, .thumbnav, .imagegrid, .flexcenter {
+  footer, iframe, video, slide-show, #menumain, .menumain-open, .breadcrumb, .share, .book, .social, .thumbnav, .imagegrid, .flexcenter {
     display: none !important;
   }
 
   main, main > * {
-    width: 100% !important;
-    max-width: none !important;
+    inline-size: 100% !important;
+    max-inline-size: none !important;
     padding-inline: 0 !important;
     margin-inline: 0 !important;
   }
@@ -67,8 +67,8 @@
       }
 
       svg {
-        width: 1em;
-        height: 1em;
+        inline-size: 1em;
+        block-size: 1em;
         padding: 0;
       }
 

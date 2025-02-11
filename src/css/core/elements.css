@@ -86,7 +86,7 @@ a.headlink {
 
 main, .share {
 
-  & > *:not(.full) {
+  & > *:not(.full):not(slide-show) {
     inline-size: var(--main-width);
     margin-inline: auto;
   }

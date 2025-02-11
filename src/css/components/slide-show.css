@@ -1,0 +1,64 @@
+/* hero */
+slide-show {
+  display: block;
+  inline-size: 100%;
+  block-size: 50vh;
+  margin: 0;
+  margin-block-end: 5rem;
+  overflow: hidden;
+  background-color: var(--color-gdark);
+
+  iframe, img, video {
+    display: none;
+    inline-size: 100%;
+    block-size: 100%;
+    margin: 0;
+  }
+
+  & > *:first-child:not(iframe) {
+    display: block;
+  }
+
+  img, video {
+    object-fit: cover;
+    object-position: 50% 0%;
+  }
+}
+
+/* JS enabled */
+@media (scripting: enabled) {
+
+  slide-show:has(iframe) {
+    iframe { display: block; }
+    img, video { display: none; }
+  }
+
+}
+
+/* animations */
+.ss-tb {
+  animation: 10s ease-out 0s forwards 1 sstb;
+}
+
+.ss-trbl {
+  animation: 10s ease-out 0s forwards 1 sstrbl;
+}
+
+.ss-tbsubtle {
+  animation: 6s ease-in-out 0s forwards 1 sstbsubtle;
+}
+
+@keyframes sstb {
+  0% { object-position: 50% 0%; transform: scale(1); }
+  100% { object-position: 50% 100%; transform: scale(1.2); }
+}
+
+@keyframes sstrbl {
+  0% { object-position: 100% 0%; transform: scale(1); }
+  100% { object-position: 0% 100%; transform: scale(1.2); }
+}
+
+@keyframes sstbsubtle {
+  0% { object-position: 50% 30%; transform: scale(1); }
+  100% { object-position: 50% 70%; transform: scale(1.1); }
+}

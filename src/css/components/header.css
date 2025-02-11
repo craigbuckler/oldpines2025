@@ -45,7 +45,7 @@ a.logo {
   padding-inline-start: var(--layout-margin);
 
   img {
-    width: clamp(80px, 20vw, 160px);
+    inline-size: clamp(80px, 20vw, 160px);
     margin: 0;
   }
 
@@ -90,8 +90,8 @@ footer {
 
   svg {
     --size: clamp(2rem, 10vw, 3rem);
-    width: var(--size);
-    height: var(--size);
+    inline-size: var(--size);
+    block-size: var(--size);
     padding: 0.3rem;
   }
 
@@ -109,7 +109,7 @@ footer {
 .book, .social {
   grid-column-start: span 2;
   background-color: var(--color-gdark);
-  max-width: 100vw;
+  max-inline-size: 100vw;
 
   ul {
     justify-content: center;
@@ -185,8 +185,8 @@ footer .book {
     }
 
     svg {
-      width: 1em;
-      height: 1em;
+      inline-size: 1em;
+      block-size: 1em;
       padding: 0;
     }
 

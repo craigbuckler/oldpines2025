@@ -9,8 +9,8 @@
 
 main button, main a.button {
   display: block;
-  width: max-content;
-  min-width: 8em;
+  min-inline-size: 8em;
+  max-inline-size: max-content;
   font-weight: var(--font-weight-bold);
   text-align: center;
   text-decoration: none;

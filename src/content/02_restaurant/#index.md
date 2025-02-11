@@ -2,8 +2,7 @@
 title: Old Pines Restaurant
 menu: restaurant
 description: Old Pines serves delicious, locally-sourced, fresh and seasonal Scottish food and drink in our restaurant overlooking Highlands and Ben Nevis.
-hero: food-05
-heroAlt: Old Pines Hotel and Restaurant, Scotland
+slideshow: restaurant
 priority: 0.9
 ---
 

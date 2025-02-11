@@ -2,8 +2,7 @@
 title: Activities near Old Pines Hotel
 menu: activities
 description: Old Pines is nestled in the heart of the Scottish Highlands close to Ben Nevis, Loch Ness, and Fort William.
-hero: scotland-04
-heroAlt: Things to do in Scotland near Old Pines Hotel and Restaurant
+slideshow: scotland03
 priority: 0.8
 ---
 
@@ -23,6 +22,7 @@ We have our very own walk across the road from the hotel. The [Highbridge Circul
 
 
 <ul class="flexcenter">
+  <li><a href="--ROOT--location/" class="button">location</a></li>
   <li><a href="--ROOT--rooms/booking/" class="button">book room</a></li>
   <li><a href="--ROOT--restaurant/reserve-table/" class="button">reserve table</a></li>
 </ul>

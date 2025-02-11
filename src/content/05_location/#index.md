@@ -2,8 +2,7 @@
 title: Old Pines Location and Directions
 menu: location
 description: Old Pines is nestled in the heart of the Scottish Highlands close to Ben Nevis, Loch Ness, Spean Bridge, and Fort William.
-hero: scotland-05
-heroAlt: How to get to Old Pines Hotel and Restaurant from Inverness, Glasgow, and Edinburgh.
+slideshow: map
 priority: 0.8
 ---
 
@@ -55,4 +54,5 @@ ${ tacs.config.title } is [136 miles or two and three-quarter hours from Edinbur
 <ul class="flexcenter">
   <li><a href="--ROOT--rooms/booking/" class="button">book room</a></li>
   <li><a href="--ROOT--restaurant/reserve-table/" class="button">reserve table</a></li>
+  <li><a href="--ROOT--location/activities/" class="button">activities</a></li>
 </ul>

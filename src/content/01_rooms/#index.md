@@ -2,8 +2,7 @@
 title: Old Pines Hotel Rooms
 menu: rooms
 description: We offer seven restful rooms offering views of Scottish Highlands and the Ben Nevis mountain range.
-hero: room-01
-heroAlt: Rest and relax at Old Pines Hotel, Scotland
+slideshow: rooms
 priority: 0.9
 ---
 
