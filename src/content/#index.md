@@ -32,20 +32,20 @@ Indulge in freshly-prepared, locally-sourced food, a restful atmosphere in rejuv
     </li>
     <li>
       <a href="${ tacs.root }gallery/">
-        <img src="${ tacs.root }images/scotland-03.avif" width="1600" height="900" alt="stunning scenery" loading="lazy" />
+        <img src="${ tacs.root }images/scotland-05.avif" width="1600" height="900" alt="stunning scenery" loading="lazy" />
         <p>gallery</p>
       </a>
     </li>
     <li>
       <a href="${ tacs.root }offers/">
-        <img src="${ tacs.root }images/hotel-03.avif" width="1600" height="900" alt="special room and dining offers" loading="lazy" />
+        <img src="${ tacs.root }images/hotel-02.avif" width="1600" height="900" alt="special room and dining offers" loading="lazy" />
         <p>offers</p>
       </a>
     </li>
     <li>
-      <a href="${ tacs.root }contact/">
-        <img src="${ tacs.root }images/hotel-05.avif" width="1600" height="900" alt="contact ${ tacs.config.title }" loading="lazy" />
-        <p>contact</p>
+      <a href="${ tacs.root }location/">
+        <img src="${ tacs.root }images/hotel-05.avif" width="1600" height="900" alt="${ tacs.config.title } location" loading="lazy" />
+        <p>location</p>
       </a>
     </li>
   </ul>

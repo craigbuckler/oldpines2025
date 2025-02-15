@@ -3,8 +3,7 @@ title: Old Pines Privacy Policy
 menu: false
 description: We don't discuss you or your projects with anyone (privacy policy and GDPR).
 quote: Beautiful location. Spotless rooms. The food is truly outstanding.
-hero: hotel-04
-heroAlt: Old Pines Hotel and Restaurant, Scotland
+slideshow: scotland02
 priority: 0.1
 ---
 
