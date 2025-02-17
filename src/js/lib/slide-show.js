@@ -32,8 +32,7 @@ class SlideShow extends HTMLElement {
 
       // CSS animation
       i.addEventListener('animationend', e => {
-        const t = e.target;
-        if (!this.#isVideo(t)) this.#nextSlide(t);
+        if (!this.#isVideo(e.target)) this.nextSlide();
       });
 
       if (this.#isVideo(i)) {
@@ -45,10 +44,7 @@ class SlideShow extends HTMLElement {
         i.playbackRate = parseFloat(i.dataset.rate || 1);
 
         // video playback ended event
-        i.addEventListener('ended', e => {
-          const t = e.target;
-          this.#nextSlide(t);
-        });
+        i.addEventListener('ended', () => this.nextSlide() );
 
       }
 
@@ -67,36 +63,42 @@ class SlideShow extends HTMLElement {
     });
     observer.observe(this);
 
-
     // activate first slide
-    this.#nextSlide();
+    this.nextSlide();
 
   }
 
 
   // video and/or animation has ended
-  #nextSlide(active) {
+  nextSlide() {
 
     const
       currentActive = this.#getActive(),
-      nextActive = currentActive?.nextElementSibling || this.firstElementChild,
-      isVideo = this.#isVideo(nextActive);
-
-    // rewind next video
-    if (isVideo) {
-      nextActive.currentTime = 0;
-    }
+      nextActive = currentActive?.nextElementSibling || this.firstElementChild;
 
     // activate
     if (currentActive) {
       currentActive.removeAttribute(config.datasetActive);
       currentActive.className = '';
+
+      // rewind video
+      if (this.#isVideo(currentActive)) currentActive.currentTime = 0;
+
     }
     nextActive.setAttribute(config.datasetActive, '');
 
     // reapply animated effect
     nextActive.className = nextActive.dataset.class;
     this.play(nextActive);
+
+    // preload next image
+    const nextImg = nextActive.nextElementSibling;
+    if (nextImg?.src && !nextImg.complete) {
+
+      const img = new Image();
+      img.src = nextImg.src;
+
+    }
 
   }
 
@@ -117,8 +119,6 @@ class SlideShow extends HTMLElement {
     if (this.#isVideo(active)) active.play();
     active.removeAttribute(config.datasetPause);
 
-    // console.log('play', active);
-
   }
 
 
@@ -129,8 +129,6 @@ class SlideShow extends HTMLElement {
 
     if (this.#isVideo(active)) active.pause();
     active.setAttribute(config.datasetPause, '');
-
-    // console.log('pause', active);
 
   }
 

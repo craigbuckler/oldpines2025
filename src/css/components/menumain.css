@@ -21,7 +21,7 @@
   position: fixed;
   inline-size: fit-content;
   max-inline-size: none;
-  block-size: 100vb;
+  block-size: 100%;
   max-block-size: none;
   inset: 0;
   inset-inline-start: auto;

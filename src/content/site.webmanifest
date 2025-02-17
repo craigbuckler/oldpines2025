@@ -21,7 +21,7 @@ index: false
     { "src": "${ tacs.root }favicon180.png", "type": "image/png", "sizes": "180x180" },
     { "src": "${ tacs.root }favicon192.png", "type": "image/png", "sizes": "192x192" },
     { "src": "${ tacs.root }favicon310.png", "type": "image/png", "sizes": "310x310" },
-    { "src": "${ tacs.root }favicon512mask.png", "type": "image/png", "sizes": "512x512", "purpose": "maskable" }
+    { "src": "${ tacs.root }favicon512mask.png", "type": "image/png", "sizes": "512x512", "purpose": "maskable" },
     { "src": "${ tacs.root }favicon512.png", "type": "image/png", "sizes": "512x512" }
   ]
 }
