@@ -35,10 +35,10 @@ ${ tacs.config.title } is situated in the heart of the Scottish Highlands at the
       <img src="${ tacs.root }images/scotland-04.avif" width="1600" height="900" alt="Scottish Higlands" loading="lazy" />
     </li>
     <li>
-      <img src="${ tacs.root }images/scotland-05.avif" width="1600" height="900" alt="Scottish Higlands" loading="lazy" />
+      <img src="${ tacs.root }images/spean-bridge-01.avif" width="1600" height="900" alt="Spean Bridge Commando Memorial" loading="lazy" />
     </li>
     <li>
-      <img src="${ tacs.root }images/scotland-06.avif" width="1600" height="900" alt="Scottish Higlands" loading="lazy" />
+      <img src="${ tacs.root }images/scotland-05.avif" width="1600" height="900" alt="Scottish Higlands" loading="lazy" />
     </li>
     <li>
       <img src="${ tacs.root }images/scotland-07.avif" width="1600" height="900" alt="Scottish Higlands" loading="lazy" />

@@ -6,11 +6,14 @@ slideshow: scotland03
 priority: 0.8
 ---
 
-A selection of Scottish activities and unmissable Highland areas to be experienced within one hour's drive of Old Pines:
+${ tacs.config.title } is in Spean Bridge a short walk from the [Commando Memorial](https://www.undiscoveredscotland.co.uk/speanbridge/commando/) and a few minutes drive from [Fort William](https://visitfortwilliam.co.uk/).
+
+A selection of Scottish activities and unmissable Highland areas can be experienced within one hour's drive of Old Pines:
 
 * [Loch Ness](http://www.lochness.com/) and the [Loch Ness Monster Experiences](https://www.visitinvernesslochness.com/explore-the-scottish-highlands/loch-ness-myths-and-legends/)
 * [Ben Nevis mountain](http://ben-nevis.com/)
 * [Aonach Mor / the Nevis Range](https://www.nevisrange.co.uk/)
+* [Glenfinnan Viaduct](https://www.visitscotland.com/info/towns-villages/glenfinnan-p236571) as featured in the Harry Potter films
 * [Caledonian Canal](https://www.scottishcanals.co.uk/canals/caledonian-canal/)
 * [Great Glen Way](https://www.highland.gov.uk/greatglenway/)
 * [Mallaig](https://www.undiscoveredscotland.co.uk/mallaig/mallaig/index.html)

@@ -6,10 +6,9 @@ slideshow: scotland01
 priority: 1.0
 ---
 
-As we gear up for the new season, we are offering you the chance to book early and save.
+We offer accommodation and restaurant offers throughout the season, so please check here regularly.
 
-Book before 1 February 2025 and receive 10% off any dates in 2025. Please enter the promotional code **EARLY2025** when booking...
-
-<a href="${ tacs.root }rooms/booking/" class="button">book today</a>
-
-*Offer only available when booking dinner, bed, and breakfast for one or more persons.*
+<ul class="flexcenter">
+  <li><a href="--ROOT--rooms/booking/" class="button">book room</a></li>
+  <li><a href="--ROOT--restaurant/reserve-table/" class="button">reserve table</a></li>
+</ul>

@@ -15,19 +15,25 @@ Indulge in freshly-prepared, locally-sourced food, a restful atmosphere in rejuv
     <li>
       <a href="${ tacs.root }rooms/">
         <img src="${ tacs.root }images/room-01.avif" width="1600" height="900" alt="superior Old Pines bedroom" loading="lazy" />
-        <p>sleep</p>
+        <p>rooms</p>
       </a>
     </li>
     <li>
       <a href="${ tacs.root }restaurant/">
-        <img src="${ tacs.root }images/food-02.avif" width="1600" height="900" alt="delicious Old Pines food" loading="lazy" />
-        <p>eat</p>
+        <img src="${ tacs.root }images/restaurant-01.avif" width="1600" height="900" alt="delicious Old Pines food" loading="lazy" />
+        <p>restaurant</p>
+      </a>
+    </li>
+    <li>
+      <a href="${ tacs.root }restaurant/dinner/">
+        <img src="${ tacs.root }images/food-05.avif" width="1600" height="900" alt="example dinner menu" loading="lazy" />
+        <p>menu</p>
       </a>
     </li>
     <li>
       <a href="${ tacs.root }location/activities/">
         <img src="${ tacs.root }images/scotland-04.avif" width="1600" height="900" alt="explore Scotland" loading="lazy" />
-        <p>relax</p>
+        <p>explore</p>
       </a>
     </li>
     <li>
@@ -37,14 +43,8 @@ Indulge in freshly-prepared, locally-sourced food, a restful atmosphere in rejuv
       </a>
     </li>
     <li>
-      <a href="${ tacs.root }offers/">
-        <img src="${ tacs.root }images/hotel-02.avif" width="1600" height="900" alt="special room and dining offers" loading="lazy" />
-        <p>offers</p>
-      </a>
-    </li>
-    <li>
       <a href="${ tacs.root }location/">
-        <img src="${ tacs.root }images/hotel-05.avif" width="1600" height="900" alt="${ tacs.config.title } location" loading="lazy" />
+        <img src="${ tacs.root }images/spean-bridge-01.avif" width="1600" height="900" alt="${ tacs.config.title } location, Spean Bridge" loading="lazy" />
         <p>location</p>
       </a>
     </li>

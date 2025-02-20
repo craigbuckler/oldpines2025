@@ -13,20 +13,20 @@ All rooms are decorated in calming, natural colours to compliment the wooded sur
 Room facilities include:
 
 * en-suite shower room
-* child-friendly
+* [child-friendly](#family-rooms)
 * free parking on the front driveway
+* electric vehicle charging points
 * free fast wi-fi in your room and throughout the hotel
 * flat-screen television
 * books and movies
-* a direct dial telephone
-* a television with UK Freeview channels
+* direct dial telephone with free calls
+* television with UK Freeview channels
 * tea and coffee-making facilities with a selection of Fairtrade and organic beverages
 * our famous Scottish homemade oat cookies
 * twin, king-size, and super-king-size beds
-* air conditioning
 * free breakfast
 * [disabled access](#disabled-access)
-* pet facilities
+* pet friendly (rooms only)
 * no smoking
 * 5-star reviews
 

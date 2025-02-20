@@ -92,9 +92,19 @@ slide-show {
   animation: 10s ease-out 0s forwards 1 ssbt;
 }
 
+.ss-btbasic {
+  object-position: 50% 100%;
+  animation: 10s ease-out 0s forwards 1 ssbtbasic;
+}
+
 .ss-trbl {
   object-position: 100% 0%;
   animation: 10s ease-out 0s forwards 1 sstrbl;
+}
+
+.ss-brtl {
+  object-position: 100% 100%;
+  animation: 10s ease-out 0s forwards 1 ssbrtl;
 }
 
 .ss-bltr {
@@ -137,9 +147,19 @@ slide-show {
   100% { object-position: 50% 0%; transform: scale(1.2); }
 }
 
+@keyframes ssbtbasic {
+  0% { object-position: 50% 100%; }
+  100% { object-position: 50% 0%; }
+}
+
 @keyframes sstrbl {
   0% { object-position: 100% 0%; transform: scale(1.2); }
   100% { object-position: 0% 100%; transform: scale(1); }
+}
+
+@keyframes ssbrtl {
+  0% { object-position: 100% 100%; transform: scale(1.2); }
+  100% { object-position: 0% 0%; transform: scale(1); }
 }
 
 @keyframes ssbltr {
