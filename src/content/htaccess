@@ -2,7 +2,8 @@
 slug: .htaccess
 index: false
 ---
-# webmanifest MIME type
+# MIME types
+AddType video/webm .webm
 AddType application/manifest+json .webmanifest
 
 # security
@@ -19,6 +20,9 @@ Header set x-HTML-Edge-Cache: cache
 
 # file caching
 ExpiresActive On
+ExpiresByType video/webm "access plus 1 year"
+ExpiresByType audio/weba "access plus 1 year"
+ExpiresByType image/webp "access plus 1 year"
 ExpiresByType image/avif "access plus 1 year"
 ExpiresByType image/gif "access plus 1 year"
 ExpiresByType image/jpg "access plus 1 year"
@@ -26,9 +30,14 @@ ExpiresByType image/jpeg "access plus 1 year"
 ExpiresByType image/png "access plus 1 year"
 ExpiresByType image/svg+xml "access plus 1 year"
 ExpiresByType image/x-icon "access plus 1 year"
+ExpiresByType font/woff2 "access plus 1 year"
+ExpiresByType font/woff "access plus 1 year"
+ExpiresByType application/pdf "access plus 1 month"
+ExpiresByType text/html "access plus 1 day"
 ExpiresByType text/css "access plus 1 day"
 ExpiresByType text/javascript "access plus 1 day"
-ExpiresByType application/pdf "access plus 1 month"
+ExpiresByType text/plain "access plus 1 day"
+ExpiresByType application/xml "access plus 1 day"
 ExpiresByType application/manifest+json "access plus 1 day"
 ExpiresDefault "access plus 1 day"
 

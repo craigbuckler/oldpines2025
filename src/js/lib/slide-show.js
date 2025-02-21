@@ -5,7 +5,8 @@
 const config = {
   datasetActive: 'data-active',
   datasetPause: 'data-pause',
-  intersectThreshold: 0.3
+  intersectThreshold: 0.3,
+  isSafari: (navigator?.vendor.toLowerCase() || '').includes('apple'),
 };
 
 class SlideShow extends HTMLElement {
@@ -89,6 +90,13 @@ class SlideShow extends HTMLElement {
 
     // reapply animated effect
     nextActive.className = nextActive.dataset.class;
+
+    // Safari rewind video - must load() to reset WebM video
+    if (config.isSafari && this.#isVideo(nextActive)) {
+      nextActive.load();
+      nextActive.playbackRate = parseFloat(nextActive.dataset.rate || 1);
+    }
+
     this.play(nextActive);
 
     // preload next image
