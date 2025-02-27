@@ -45,4 +45,5 @@ This site links to other websites. We are not responsible for the content, accur
 <ul class="flexcenter">
   <li><a href="--ROOT--rooms/booking/" class="button">book room</a></li>
   <li><a href="--ROOT--restaurant/reserve-table/" class="button">reserve table</a></li>
+  <li><a href="--VOUCHERS--" class="button">buy voucher</a></li>
 </ul>

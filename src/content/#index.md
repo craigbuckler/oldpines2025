@@ -31,15 +31,15 @@ Indulge in freshly-prepared, locally-sourced food, a restful atmosphere in rejuv
       </a>
     </li>
     <li>
-      <a href="${ tacs.root }location/activities/">
-        <img src="${ tacs.root }images/scotland-04.avif" width="1600" height="900" alt="explore Scotland" loading="lazy" />
-        <p>explore</p>
+      <a href="${ tacs.root }vouchers/">
+        <img src="${ tacs.root }images/hotel-02.avif" width="1600" height="900" alt="stunning scenery" loading="lazy" />
+        <p>vouchers</p>
       </a>
     </li>
     <li>
-      <a href="${ tacs.root }gallery/">
-        <img src="${ tacs.root }images/scotland-05.avif" width="1600" height="900" alt="stunning scenery" loading="lazy" />
-        <p>gallery</p>
+      <a href="${ tacs.root }location/activities/">
+        <img src="${ tacs.root }images/scotland-04.avif" width="1600" height="900" alt="explore Scotland" loading="lazy" />
+        <p>explore</p>
       </a>
     </li>
     <li>
@@ -56,16 +56,21 @@ Indulge in freshly-prepared, locally-sourced food, a restful atmosphere in rejuv
 
 Thank you to all our customers for their complimentary reviews of Old Pines Hotel & Restaurant in Scotland.
 
-* Google reviews -- [4.8 out of 5.0](https://www.google.com/travel/hotels/entity/CgoIm_rmqp-DqL9uEAE/reviews)
+* Google reviews -- [4.8 out of 5](https://www.google.com/travel/hotels/entity/CgoIm_rmqp-DqL9uEAE/reviews)
 
-* Tripadvisor -- [4.5 out of 5.0](https://www.tripadvisor.co.uk/Hotel_Review-g635692-d304682-Reviews-Old_Pines_Hotel_and_Restaurant-Spean_Bridge_Lochaber_Scottish_Highlands_Scotland.html#REVIEWS)
+* Booking.com -- [9.0 out of 10](https://www.booking.com/hotel/gb/oldpineshotel.en-gb.html#tab-reviews)
 
-* Trivago -- [9.2 out of 10.0](https://www.trivago.co.uk/spean-bridge-359271/hotel/old-pines-604336)
+* Tripadvisor -- [4.5 out of 5](https://www.tripadvisor.co.uk/Hotel_Review-g635692-d304682-Reviews-Old_Pines_Hotel_and_Restaurant-Spean_Bridge_Lochaber_Scottish_Highlands_Scotland.html#REVIEWS)
 
-* Booking.com -- [9.0 out of 10.0](https://www.booking.com/hotel/gb/oldpineshotel.en-gb.html#tab-reviews)
+* Trivago -- [9.2 out of 10](https://www.trivago.co.uk/spean-bridge-359271/hotel/old-pines-604336)
+
+* Wego -- [9.3 out of 10](https://www.wegotravel.co.uk/hotels/searches/96129/2025-03-05/2025-03-06/1/2/1114683)
+
+* Yelp -- [4.5 out of 5](https://www.yelp.co.uk/biz/old-pines-restaurant-with-rooms-spean-bridge)
+
 
 <ul class="flexcenter">
   <li><a href="--ROOT--rooms/booking/" class="button">book room</a></li>
   <li><a href="--ROOT--restaurant/reserve-table/" class="button">reserve table</a></li>
-  <li><a href="--ROOT--offers/" class="button">offers</a></li>
+  <li><a href="--VOUCHERS--" class="button">buy voucher</a></li>
 </ul>

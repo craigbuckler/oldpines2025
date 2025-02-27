@@ -64,6 +64,7 @@ tacs.config.keywords = process.env.KEYWORDS;
 tacs.config.topic = process.env.SITE_TOPIC;
 tacs.config.author = process.env.SITE_AUTHOR;
 tacs.config.themeColor = process.env.SITE_THEMECOLOR || '#000';
+tacs.config.vouchers = process.env.SITE_VOUCHERS || publican.config.root + 'vouchers/';
 tacs.config.CSP = process.env.SITE_CSP.trim().replace(/\n/g, ' ');
 tacs.config.buildDate = new Date();
 
@@ -75,6 +76,7 @@ tacs.fn.format = fnFormat;
 // replacement strings
 publican.config.replace = new Map([
   [ '--ROOT--', publican.config.root ],
+  [ '--VOUCHERS--', tacs.config.vouchers ],
   [ '--COPYRIGHT--', `&copy;<time datetime="${ tacs.fn.format.dateYear() }">${ tacs.fn.format.dateYear() }</time>` ],
   [ ' style="text-align:right"', ' class="right"' ],
   [ ' style="text-align:center"', ' class="center"' ]

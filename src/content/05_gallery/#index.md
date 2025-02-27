@@ -1,5 +1,5 @@
 ---
-title: Old Pines gallery
+title: Old Pines Gallery
 menu: gallery
 description: Pictures from Old Pines Hotel with the surrounding Scottish highlands and countryside.
 slideshow: scotland02
@@ -54,4 +54,5 @@ ${ tacs.config.title } is situated in the heart of the Scottish Highlands at the
 <ul class="flexcenter">
   <li><a href="--ROOT--rooms/booking/" class="button">book room</a></li>
   <li><a href="--ROOT--restaurant/reserve-table/" class="button">reserve table</a></li>
+  <li><a href="--VOUCHERS--" class="button">buy voucher</a></li>
 </ul>

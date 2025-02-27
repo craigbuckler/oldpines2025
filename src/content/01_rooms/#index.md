@@ -47,4 +47,7 @@ All rooms are on the ground floor with wheelchair access. All bathrooms provide 
 
 Please [contact us to discuss your mobility requirements](--ROOT--contact/).
 
-<a href="${ tacs.root }rooms/booking/" class="button">book a room</a>
+<ul class="flexcenter">
+  <li><a href="--ROOT--rooms/booking/" class="button">book room</a></li>
+  <li><a href="--VOUCHERS--" class="button">buy voucher</a></li>
+</ul>

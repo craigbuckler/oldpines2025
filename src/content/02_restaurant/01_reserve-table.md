@@ -5,7 +5,7 @@ description: How to reserve a table for dinner at Old Pines Restaurant serving s
 priority: 1.0
 ---
 
-Please contact us reserve a dining table:
+Please contact us to reserve a dining table:
 
 <div class="vcard" itemscope="itemscope" itemtype="http://schema.org/Organization">
 
@@ -14,7 +14,7 @@ Please contact us reserve a dining table:
   <p><a href="${ tacs.root }contact/" class="email" title="send us an email"><span itemprop="email">enquiries {at} oldpines dot co dot uk</span></a></p>
 
   <p class="adr" itemprop="address" itemscope="itemscope" itemtype="http://schema.org/PostalAddress">
-    <a href="${ tacs.root }" class="fn org url" title="oldpines.co.uk"><span itemprop="name">Old Pines Hotel &amp; Restaurant</a></span>
+    <a href="${ tacs.config.domain }${ tacs.root }" class="fn org url" title="oldpines.co.uk"><span itemprop="name">Old Pines Hotel &amp; Restaurant</a></span>
     <span class="street-address" itemprop="streetAddress">Spean Bridge</span>
     <span class="region" itemprop="addressRegion">Inverness-shire</span>
     <span class="country-name" itemprop="addressCountry">Scotland</span>
@@ -25,16 +25,14 @@ Please contact us reserve a dining table:
 
 </div>
 
-*We are committed to protecting your personal details. Please [refer to our privacy policy](--ROOT--privacy/) for more information.*
 
+## Restaurant Opening Times
 
-## Opening Times
+Unfortunately, we do not serve lunch. We are open for tea, coffee, drinks, and cakes all day in the lounge and restaurant area. No booking is required.
 
-We are open for tea, coffee, drinks, and cakes all day in the lounge and restaurant area. No booking required.
+**Afternoon tea** including sandwiches, scones, and homemade cakes is available for &pound;25 per person. Please book at least 24 hours in advance.
 
-**Afternoon tea** including sandwiches, scones, and homemade cakes is available for &pound;20 per person. Please book at least 24 hours in advance.
-
-**Dinner** is served from 6:00pm to 8:00pm. Residents will always be guaranteed a table although it is advisable book if you wish to dine at a specific time.
+**Dinner** is served from 6:00pm to 8:00pm. Residents are guaranteed a table, although we advise you to book if you wish to dine at a specific time.
 
 *Please view our sample menus...*
 

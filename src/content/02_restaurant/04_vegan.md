@@ -1,5 +1,5 @@
 ---
-title: Old Pines Sample Vegan Dinner Menu
+title: Old Pines Restaurant Sample Vegan Dinner Menu
 menu: vegan menu
 description: A sample of vegan dishes from the Old Pines Restaurant Scottish dinner menu.
 priority: 0.7
@@ -37,7 +37,7 @@ Oat milk rice pudding, poached pear, puffed rice
 
 5 courses, £60 per person
 
-Tea or coffee and handmade petit fours £4.50 per person
+Tea, coffee, and petit fours £6
 
 ---
 

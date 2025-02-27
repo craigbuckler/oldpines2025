@@ -1,6 +1,6 @@
 {
   "name": "oldpines",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "Old Pines Hotel & Restaurant website",
   "keywords": [
     "website",
@@ -27,6 +27,6 @@
   },
   "dependencies": {
     "esbuild": "^0.25.0",
-    "publican": "^0.5.0"
+    "publican": "^0.6.0"
   }
 }

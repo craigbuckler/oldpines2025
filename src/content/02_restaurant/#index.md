@@ -46,4 +46,7 @@ We cater for gluten-free, lactose/dairy-free, vegan, and vegetarian diets. If yo
 
 A selection of Scots Whisky, ales, beers, wines, cocktails, and other drinks are available in the lounge area before dinner. A full wine list is provided to compliment your meal.
 
-<a href="--ROOT--restaurant/reserve-table/" class="button">reserve a table</a>
+<ul class="flexcenter">
+  <li><a href="--ROOT--restaurant/reserve-table/" class="button">reserve table</a></li>
+  <li><a href="--VOUCHERS--" class="button">buy voucher</a></li>
+</ul>

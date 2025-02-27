@@ -1,5 +1,5 @@
 ---
-title: Old Pines Sample Dinner Menu
+title: Old Pines Restaurant Sample Dinner Menu
 menu: dinner menu
 description: A sample of dishes from the Old Pines Restaurant Scottish dinner menu.
 priority: 0.7
@@ -15,27 +15,27 @@ Welcome snacks
 
 ---
 
-Grilled white asparagus, romesco, toasted sunflower seed
+Celeriac, truffle, almond, watercress
 
 ---
 
-Loch Etive trout tartare, blood orange, almond, rosé, sea herbs
+Smoked haddock, Jersey Royals, preserved apricot
 
 *OR*
 
-Wild garlic orzo, crowdie, celeriac, pine nut
+Parsnip, leek, smoked crowdie
 
 ---
 
-Loin of Scottish mutton, smoked potato, curried mussels, mint, coriander
+Lamb neck, white turnips, seaweed
 
 *OR*
 
-Stone bass, golden beetroot, jersey royals, white grape, caviar
+Loch Etive trout, Shetland mussels risotto, grape mustard
 
 *OR*
 
-Salt baked 'neeps', crispy hen's egg, caper, kale
+Salt baked turnips, fennel, green apple hummus
 
 ---
 
@@ -43,19 +43,23 @@ Pre-dessert
 
 ---
 
-Buckwheat parfait, blueberry, white chocolate, sumac
+Rhubarb & custard cannoli
 
 *OR*
 
-Soda bread and butter pudding, Old Pines marmalade ice cream
+Chocolate St. Emilion, salt caramel mousse, Cullise oil
+
+*OR*
+
+British cheese, house chutney, savoury shortbread
 
 ---
 
 5 courses, £60 per person
 
-Tea or coffee and handmade petit fours £4.50 per person
+Additional cheese course available as £8 supplement
 
-Selection of British cheese, port jelly, oatcakes £8 per person
+Tea, coffee, and petit fours £6
 
 ---
 

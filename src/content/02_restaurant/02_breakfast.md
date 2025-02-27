@@ -1,5 +1,5 @@
 ---
-title: Old Pines Sample Breakfast Menu
+title: Old Pines Restaurant Sample Breakfast Menu
 menu: breakfast menu
 description: A sample of dishes from the Old Pines Restaurant Scottish breakfast menu.
 priority: 0.7
