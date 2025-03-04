@@ -11,7 +11,7 @@ Your contact details are private and we are committed to protecting them.
 
 We promise to:
 
-* only use information you give voluntarily
+* only use the information you give voluntarily
 * encrypt, transmit, and store your information in secure systems
 * only permit access to authorised Old Pines personnel
 * never pass your information to another party without your consent
@@ -22,9 +22,9 @@ We promise to:
 
 ## Personal Information Collected
 
-We collect information for the purposes of booking enquiries and billing only. This includes your name, address, telephone number, email address and payment information as necessary.
+We collect information for the purposes of booking enquiries and billing only. This includes your name, address, telephone number, email address, and payment details as necessary.
 
-No personal information is collected while you browse this website. Cookies and other state retention technologies may be used to store preferences but they are not linked to your personal details and may be safely rejected or deleted.
+No personal information is collected while you browse this website. Cookies and other state retention technologies may be used to store preferences, but they are not linked to your personal details and may be safely rejected or deleted.
 
 
 ## Information Access

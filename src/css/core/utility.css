@@ -9,7 +9,7 @@
 
 main button, main a.button {
   display: block;
-  min-inline-size: 8em;
+  min-inline-size: 10em;
   max-inline-size: max-content;
   font-weight: var(--font-weight-bold);
   text-align: center;

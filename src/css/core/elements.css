@@ -64,7 +64,8 @@ sup, sub {
 
 a:link, a:visited {
   text-decoration: underline;
-  text-underline-offset: 0.2em;
+  text-decoration-thickness: 0.07em;
+  text-underline-offset: 0.15em;
   color: var(--color-gmain);
 }
 

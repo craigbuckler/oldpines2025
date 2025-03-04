@@ -24,7 +24,7 @@ Header set x-HTML-Edge-Cache: cache
 
 # file caching
 ExpiresActive On
-ExpiresDefault "access plus 1 week"
+ExpiresDefault "access plus 1 month"
 ExpiresByType video/webm "access plus 1 year"
 ExpiresByType audio/weba "access plus 1 year"
 ExpiresByType image/webp "access plus 1 year"
@@ -49,8 +49,11 @@ RewriteRule ^(.*)$ ${ tacs.config.domain }${ tacs.root }$1 [L,R=301]
 RewriteCond %{HTTP_HOST} !^www\.
 RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [L,R=301]
 ` : '' }
-
 # remove index.html
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . redir.php [L]
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
+
+# redirect/error page
+ErrorDocument 403 /redir.php
+ErrorDocument 404 /redir.php
+ErrorDocument 500 /redir.php

@@ -1,4 +1,4 @@
-/* page header */
+/* page header and footer */
 header, footer {
 
   display: grid;
@@ -76,6 +76,10 @@ footer {
     margin-block: 1em;
   }
 
+}
+
+#optimalworks {
+  display: none;
 }
 
 

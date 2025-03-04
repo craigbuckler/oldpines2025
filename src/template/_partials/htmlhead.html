@@ -12,9 +12,10 @@
 <!-- meta -->
 <meta name="description" content="${ data.description || tacs.config.description }">
 <meta name="keywords" content="${ data.keywords ? data.keywords + ', ' : '' }${ tacs.config.keywords}">
-<meta name="page-topic" content="${ data.description || tacs.config.description }">
+<meta name="page-topic" content="${ data.topic || tacs.config.topic }">
 <meta name="author" content="${ data.author || tacs.config.author }">
 <meta name="owner" content="${ data.author || tacs.config.author }">
+<meta name="copyright" content="${ data.author || tacs.config.author }">
 <meta name="revisit-after" content="7 days" />
 <link rel="canonical" href="${ tacs.config.domain }${ data.link }">
 
