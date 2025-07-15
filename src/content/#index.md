@@ -31,9 +31,9 @@ Indulge in freshly-prepared, locally-sourced food, a restful atmosphere in rejuv
       </a>
     </li>
     <li>
-      <a href="${ tacs.root }vouchers/">
-        <img src="${ tacs.root }images/hotel-02.avif" width="1600" height="900" alt="stunning scenery" loading="lazy" />
-        <p>vouchers</p>
+      <a href="${ tacs.root }rooms/5-bed-self-catering-house/">
+        <img src="${ tacs.root }images/house-01.avif" width="1600" height="900" alt="self-catering house" loading="lazy" />
+        <p>5-bed house</p>
       </a>
     </li>
     <li>

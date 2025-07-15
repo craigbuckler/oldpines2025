@@ -1,5 +1,6 @@
 /* utility classes */
 .center {
+  max-inline-size: 36rem;
   text-align: center;
 }
 

@@ -149,10 +149,12 @@ if (publican.config.watch) {
   await buildJS.watch();
 
   // development server
-  await buildCSS.serve({
-    servedir: process.env.BUILD_DIR,
-    port: parseInt(process.env.SERVE_PORT) || 8000
-  });
+  const { livelocalhost } = await import('livelocalhost');
+
+  livelocalhost.servedir = publican.config.dir.build;
+  livelocalhost.serveport = parseInt(process.env.SERVE_PORT) || 8000;
+  livelocalhost.accessLog = false;
+  livelocalhost.start();
 
 }
 else {

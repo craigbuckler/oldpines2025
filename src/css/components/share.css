@@ -13,7 +13,7 @@
   }
 
   ul {
-    max-inline-size: 16em;
+    max-inline-size: 13em;
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;

@@ -26,4 +26,4 @@ Please contact us to [book a hotel room](--ROOT--rooms/booking/) or [reserve a d
 
 </div>
 
-*We are committed to protecting your personal details. Please [refer to our privacy policy](--ROOT--privacy/) for more information.*
+<p class="center"><em>We are committed to protecting your personal details. Please <a href="--ROOT--privacy/">refer to our privacy policy</a> for more information.</em></p>

@@ -1,6 +1,6 @@
 {
   "name": "oldpines",
-  "version": "0.9.5",
+  "version": "0.9.6",
   "description": "Old Pines Hotel & Restaurant website",
   "keywords": [
     "website",
@@ -20,13 +20,16 @@
   "type": "module",
   "main": "publican.config.js",
   "scripts": {
-    "build": "node --no-warnings --env-file=.env.dev --env-file=.env.prod ./publican.config.js",
+    "build": "node --env-file=.env.dev --env-file=.env.prod ./publican.config.js",
     "docker:up": "docker compose up -d",
     "docker:dn": "docker compose down",
-    "start": "node --no-warnings --env-file=.env.dev ./publican.config.js"
+    "start": "node --env-file=.env.dev ./publican.config.js"
   },
   "dependencies": {
-    "esbuild": "0.25.1",
-    "publican": "0.6.1"
+    "esbuild": "0.25.6",
+    "publican": "0.10.2"
+  },
+  "devDependencies": {
+    "livelocalhost": "1.2.2"
   }
 }
