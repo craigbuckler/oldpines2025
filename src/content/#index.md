@@ -31,7 +31,7 @@ Indulge in freshly-prepared, locally-sourced food, a restful atmosphere in rejuv
       </a>
     </li>
     <li>
-      <a href="${ tacs.root }rooms/5-bed-self-catering-house/">
+      <a href="${ tacs.root }5-bed-self-catering-house/">
         <img src="${ tacs.root }images/house-01.avif" width="1600" height="900" alt="self-catering house" loading="lazy" />
         <p>5-bed house</p>
       </a>
@@ -71,6 +71,6 @@ Thank you to all our customers for their complimentary reviews of Old Pines Hote
 
 <ul class="flexcenter">
   <li><a href="--ROOT--rooms/booking/" class="button">book room</a></li>
+  <li><a href="--ROOT--5-bed-self-catering-house/booking/" class="button">book house</a></li>
   <li><a href="--ROOT--restaurant/reserve-table/" class="button">reserve table</a></li>
-  <li><a href="--VOUCHERS--" class="button">buy voucher</a></li>
 </ul>

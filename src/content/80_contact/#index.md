@@ -6,7 +6,7 @@ slideshow: hotel
 priority: 0.7
 ---
 
-Please contact us to [book a hotel room](--ROOT--rooms/booking/) or [reserve a dining table](--ROOT--restaurant/reserve-table/):
+Please contact us to [book a hotel room](--ROOT--rooms/booking/), [book the house](--ROOT--5-bed-self-catering-house/booking/), [reserve a dining table](--ROOT--restaurant/reserve-table/), or discuss our services:
 
 <div class="vcard" itemscope="itemscope" itemtype="http://schema.org/Organization">
 

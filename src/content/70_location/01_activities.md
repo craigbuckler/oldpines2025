@@ -27,5 +27,5 @@ We have our very own walk across the road from the hotel. The [Highbridge Circul
 <ul class="flexcenter">
   <li><a href="--ROOT--location/" class="button">location</a></li>
   <li><a href="--ROOT--rooms/booking/" class="button">book room</a></li>
-  <li><a href="--ROOT--restaurant/reserve-table/" class="button">reserve table</a></li>
+  <li><a href="--ROOT--5-bed-self-catering-house/booking/" class="button">book house</a></li>
 </ul>

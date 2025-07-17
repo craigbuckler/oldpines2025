@@ -24,7 +24,7 @@ Header set x-HTML-Edge-Cache: cache
 
 # file caching
 ExpiresActive On
-ExpiresDefault "access plus 1 month"
+ExpiresDefault "access plus 1 week"
 ExpiresByType video/webm "access plus 1 year"
 ExpiresByType audio/weba "access plus 1 year"
 ExpiresByType image/webp "access plus 1 year"
