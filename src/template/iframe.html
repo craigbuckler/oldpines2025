@@ -12,6 +12,7 @@ body {
   margin: 0;
   background-color: #fff;
 }
+#bookingWidget footer { display: none; }
 </style>
 
 <!-- meta -->
@@ -55,6 +56,26 @@ body {
 </head>
 <body${ data.bodyClass ? ` class="${ data.bodyClass }"` : '' }>
 
-${ data.content }
+<script src="https://book.caterbook.net/js/main.min.js"></script>
+<div id="bookingWidget" data-embed="MQ==" data-token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJQcm9wZXJ0eUlkIjozOTd9.vdL5hRFe7YD8f2Yr6yb5bF0fP2Fgf88dm0HsMSJE-B4"${ data.roomID ? ` room-id="${ data.roomID }"` : '' }></div>
 
-${ include('_partials/htmlfoot.html') }
+<script type="module">
+const parent = window.parent;
+
+if (parent) {
+
+  // DOM mutation - alert parent
+  let debounce;
+  const observer = new MutationObserver(() => {
+
+    clearTimeout(debounce);
+    debounce = setTimeout(() => parent.postMessage('update'), 500);
+
+  });
+
+  observer.observe(document.getElementById('bookingWidget'), { attributes: true, childList: true, subtree: true });
+
+}
+</script>
+</body>
+</html>

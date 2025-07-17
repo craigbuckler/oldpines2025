@@ -39,7 +39,7 @@ The main bedroom is on ground floor with ensuite bathroom and dressing area.
 
 Upstairs there is a mezzanine landing with library of books, games, and toys. There are a further four king size bedrooms and two bathrooms.
 
-Torran-eas can comfortably accommodate ten people on a self-catering basis. You are welcome to [join us in the restaurant](--ROOT--restaurant) by [prior arrangement](--ROOT--restaurant/reserve-table).
+Torran-eas can comfortably accommodate ten people on a self-catering basis. You are welcome to [join us in the restaurant](--ROOT--restaurant/) by [prior arrangement](--ROOT--restaurant/reserve-table/).
 
 <section class="full imagegrid">
   <ul>
@@ -64,11 +64,11 @@ Torran-eas can comfortably accommodate ten people on a self-catering basis. You 
   </ul>
 </section>
 
-[Bookings are being taken for 2026](--ROOT--rooms/booking) on a weekly basis arriving Saturdays. The total cost for the house is &pound;3,500 per week. A deposit of &pound;1,000 is required with the balance payable four weeks prior to arrival.
+[Bookings are being taken for 2026](--ROOT--rooms/book-house/) on a weekly basis arriving Saturdays. The total cost for the house is &pound;3,500 per week. A deposit of &pound;1,000 is required with the balance payable four weeks prior to arrival.
 
-Please [contact us to discuss short term lettings](--ROOT--contact).
+Please [contact us to discuss short term lettings](--ROOT--contact/).
 
 <ul class="flexcenter">
-  <li><a href="--ROOT--rooms/booking" class="button">book house</a></li>
+  <li><a href="--ROOT--rooms/book-house/" class="button">book house</a></li>
   <li><a href="--VOUCHERS--" class="button">buy voucher</a></li>
 </ul>
