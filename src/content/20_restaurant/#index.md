@@ -19,19 +19,19 @@ We will always have a fully vegan extended menu option available on request, aga
     <li>
       <a href="${ tacs.root }restaurant/breakfast/">
         <img src="${ tacs.root }images/restaurant-01.avif" width="1600" height="900" alt="sample breakfast menu" loading="lazy" />
-        <p>breakfast</p>
+        <p>sample breakfast menu</p>
       </a>
     </li>
     <li>
       <a href="${ tacs.root }restaurant/dinner/">
         <img src="${ tacs.root }images/food-01.avif" width="1600" height="900" alt="sample dinner menu" loading="lazy" />
-        <p>dinner</p>
+        <p>sample dinner menu</p>
       </a>
     </li>
     <li>
       <a href="${ tacs.root }restaurant/vegan/">
         <img src="${ tacs.root }images/food-02.avif" width="1600" height="900" alt="sample vegan menu" loading="lazy" />
-        <p>vegan</p>
+        <p>sample vegan menu</p>
       </a>
     </li>
   </ul>

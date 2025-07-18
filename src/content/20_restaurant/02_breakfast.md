@@ -1,6 +1,6 @@
 ---
 title: Old Pines Restaurant Sample Breakfast Menu
-menu: breakfast menu
+menu: false
 description: A sample of dishes from the Old Pines Restaurant Scottish breakfast menu.
 priority: 0.7
 ---
@@ -67,20 +67,20 @@ Scrambled eggs served with organic smoked salmon or Great Glen smoked venison. A
   <ul>
     <li>
       <a href="${ tacs.root }restaurant/reserve-table/">
-        <img src="${ tacs.root }images/hotel-01.avif" width="1600" height="900" alt="reserve a table at Old Pines Restaurant" loading="lazy" />
+        <img src="${ tacs.root }images/hotel-05.avif" width="1600" height="900" alt="reserve a table at Old Pines Restaurant" loading="lazy" />
         <p>reserve table</p>
       </a>
     </li>
     <li>
       <a href="${ tacs.root }restaurant/dinner/">
         <img src="${ tacs.root }images/food-01.avif" width="1600" height="900" alt="sample dinner menu" loading="lazy" />
-        <p>dinner</p>
+        <p>sample dinner menu</p>
       </a>
     </li>
     <li>
       <a href="${ tacs.root }restaurant/vegan/">
         <img src="${ tacs.root }images/food-02.avif" width="1600" height="900" alt="sample vegan menu" loading="lazy" />
-        <p>vegan</p>
+        <p>sample vegan menu</p>
       </a>
     </li>
   </ul>

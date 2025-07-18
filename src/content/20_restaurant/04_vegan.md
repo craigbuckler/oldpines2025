@@ -1,6 +1,6 @@
 ---
 title: Old Pines Restaurant Sample Vegan Dinner Menu
-menu: vegan menu
+menu: false
 description: A sample of vegan dishes from the Old Pines Restaurant Scottish dinner menu.
 priority: 0.7
 ---
@@ -52,20 +52,20 @@ Tea, coffee, and petit fours £6
   <ul>
     <li>
       <a href="${ tacs.root }restaurant/reserve-table/">
-        <img src="${ tacs.root }images/hotel-01.avif" width="1600" height="900" alt="reserve a table at Old Pines Restaurant" loading="lazy" />
+        <img src="${ tacs.root }images/hotel-05.avif" width="1600" height="900" alt="reserve a table at Old Pines Restaurant" loading="lazy" />
         <p>reserve table</p>
       </a>
     </li>
     <li>
       <a href="${ tacs.root }restaurant/breakfast/">
         <img src="${ tacs.root }images/restaurant-01.avif" width="1600" height="900" alt="sample breakfast menu" loading="lazy" />
-        <p>breakfast</p>
+        <p>sample breakfast menu</p>
       </a>
     </li>
     <li>
       <a href="${ tacs.root }restaurant/dinner/">
         <img src="${ tacs.root }images/food-01.avif" width="1600" height="900" alt="sample dinner menu" loading="lazy" />
-        <p>dinner</p>
+        <p>sample dinner menu</p>
       </a>
     </li>
   </ul>
